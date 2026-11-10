@@ -1,0 +1,37 @@
+# --- Patient data: NEVER commit (overlays burn names/IDs into frames) ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+sample_frames/
+videos/
+data/
+
+# --- Notebooks: outputs embed frames/plots (can contain patient data, huge files) ---
+.ipynb_checkpoints/
+
+# --- Papers / scratch extraction files ---
+*.pdf
+paper_b64.txt
+paper_extracted.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
